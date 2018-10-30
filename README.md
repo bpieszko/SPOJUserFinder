@@ -12,4 +12,6 @@ g++-7 --std=c++17 -o SPOJUserFinder SPOJUserFinder.cpp -lcurl
 ```
 
 ## Sample result
+```
 Found Bartosz Pieszko on position 50
+```
