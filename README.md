@@ -6,15 +6,21 @@ Script to look for people on Polish SPOJ Ranking.
 g++-7 --std=c++17 -o SPOJUserFinder SPOJUserFinder.cpp -lcurl
 ```
 
-## Using
+## Usage
+```
+./SPOJUserFinder "user_name_visible_in_ranking"
+```
+
+## Example usage
 ```
 ./SPOJUserFinder "Bartosz Pieszko"
 ```
 
-## Sample result
+## Example result
 ```
 Found Bartosz Pieszko on position 50
 ```
+
 ## Author
 Bartosz Pieszko<br/>
 bartosz.pieszko@gmail.com
