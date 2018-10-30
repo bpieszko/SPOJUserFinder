@@ -15,3 +15,6 @@ g++-7 --std=c++17 -o SPOJUserFinder SPOJUserFinder.cpp -lcurl
 ```
 Found Bartosz Pieszko on position 50
 ```
+## Author
+Bartosz Pieszko
+bartosz.pieszko@gmail.com
