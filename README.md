@@ -17,4 +17,5 @@ Found Bartosz Pieszko on position 50
 ```
 ## Author
 Bartosz Pieszko
+
 bartosz.pieszko@gmail.com
