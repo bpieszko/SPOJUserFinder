@@ -23,8 +23,8 @@ int main (int argc, char * argv[]) {
 			std::string address = "https://pl.spoj.com/ranks2/?start=" + std::to_string(page_counter * 25);
 		
 			curl_easy_setopt(curl, CURLOPT_URL, address.c_str());
-            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &read_buffer);
+			curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+			curl_easy_setopt(curl, CURLOPT_WRITEDATA, &read_buffer);
 
 			res = curl_easy_perform(curl);
 			curl_easy_cleanup(curl);
