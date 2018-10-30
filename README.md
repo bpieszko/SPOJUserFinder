@@ -1,4 +1,4 @@
-# SPOJUserFinder
+# SPOJ User Finder
 Script to look for people on Polish SPOJ Ranking.
 
 ## Making
